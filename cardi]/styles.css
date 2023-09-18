@@ -1,0 +1,31 @@
+.card-container{
+    display: flex;
+    justify-content: space-between;
+}
+/* Estilize o card */
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 16px;
+    background-color: #fff;
+}
+
+/* Estilize o título do card */
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Estilize o conteúdo do card */
+.card-content {
+    font-size: 16px;
+    line-height: 1.4;
+}
+.imagem{
+    width: 80%;
+    height: auto;
+}
